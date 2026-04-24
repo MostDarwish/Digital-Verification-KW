@@ -1,0 +1,91 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.counter_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       7         7         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+work.counter_sva::arst_sva
+                     counter_sva.sv(5)                  0          1
+work.counter_sva::zero_sva
+                     counter_sva.sv(27)                 0          1
+work.counter_sva::max_out_sva
+                     counter_sva.sv(28)                 0          1
+work.counter_sva::load_sva
+                     counter_sva.sv(29)                 0          1
+work.counter_sva::ce_load_off_sva
+                     counter_sva.sv(30)                 0          1
+work.counter_sva::up_sva
+                     counter_sva.sv(31)                 0          1
+work.counter_sva::down_sva
+                     counter_sva.sv(32)                 0          1
+
+Directive Coverage:
+    Directives                       6         6         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+work.counter_sva::zero_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(34)
+                                                                                12 Covered   
+work.counter_sva::max_out_sva_cp         counter_sva Verilog  SVA  counter_sva.sv(35)
+                                                                                 5 Covered   
+work.counter_sva::load_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(36)
+                                                                                29 Covered   
+work.counter_sva::ce_load_off_sva_cp     counter_sva Verilog  SVA  counter_sva.sv(37)
+                                                                                 4 Covered   
+work.counter_sva::up_sva_cp              counter_sva Verilog  SVA  counter_sva.sv(38)
+                                                                                 4 Covered   
+work.counter_sva::down_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(39)
+                                                                                 4 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+work.counter_sva::zero_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(34)
+                                                                                12 Covered   
+work.counter_sva::max_out_sva_cp         counter_sva Verilog  SVA  counter_sva.sv(35)
+                                                                                 5 Covered   
+work.counter_sva::load_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(36)
+                                                                                29 Covered   
+work.counter_sva::ce_load_off_sva_cp     counter_sva Verilog  SVA  counter_sva.sv(37)
+                                                                                 4 Covered   
+work.counter_sva::up_sva_cp              counter_sva Verilog  SVA  counter_sva.sv(38)
+                                                                                 4 Covered   
+work.counter_sva::down_sva_cp            counter_sva Verilog  SVA  counter_sva.sv(39)
+                                                                                 4 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 6
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+work.counter_sva::arst_sva
+                     counter_sva.sv(5)                  0          1
+work.counter_sva::zero_sva
+                     counter_sva.sv(27)                 0          1
+work.counter_sva::max_out_sva
+                     counter_sva.sv(28)                 0          1
+work.counter_sva::load_sva
+                     counter_sva.sv(29)                 0          1
+work.counter_sva::ce_load_off_sva
+                     counter_sva.sv(30)                 0          1
+work.counter_sva::up_sva
+                     counter_sva.sv(31)                 0          1
+work.counter_sva::down_sva
+                     counter_sva.sv(32)                 0          1
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

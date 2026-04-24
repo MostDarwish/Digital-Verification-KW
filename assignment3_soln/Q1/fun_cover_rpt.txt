@@ -1,0 +1,117 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.testing_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          3        na        na        na
+            Covergroup Bins         10        10         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.testing_pkg::Transaction/CovCode           100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint operand1_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint opcode_cp                              100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opcode_operand1                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/testing_pkg::Transaction::CovCode  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint operand1_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin max_neg                                        11          1          -    Covered              
+        bin zero                                           12          1          -    Covered              
+        bin max_pos                                        11          1          -    Covered              
+        default bin misc                                    0                     -    ZERO                 
+    Coverpoint opcode_cp                              100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin no_div                                  0                     -    ZERO                 
+        bin add_sub                                        20          1          -    Covered              
+        bin add                                             9          1          -    Covered              
+        bin sub                                            11          1          -    Covered              
+        bin mult                                           12          1          -    Covered              
+        bin add_then_sub                                    3          1          -    Covered              
+    Cross opcode_operand1                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin max_pos_add_or_sub                          9          1          -    Covered              
+            bin max_neg_add_or_sub                          6          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.testing_pkg::Transaction/CovCode           100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint operand1_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint opcode_cp                              100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross opcode_operand1                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/testing_pkg::Transaction::CovCode  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint operand1_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin max_neg                                        11          1          -    Covered              
+        bin zero                                           12          1          -    Covered              
+        bin max_pos                                        11          1          -    Covered              
+        default bin misc                                    0                     -    ZERO                 
+    Coverpoint opcode_cp                              100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin no_div                                  0                     -    ZERO                 
+        bin add_sub                                        20          1          -    Covered              
+        bin add                                             9          1          -    Covered              
+        bin sub                                            11          1          -    Covered              
+        bin mult                                           12          1          -    Covered              
+        bin add_then_sub                                    3          1          -    Covered              
+    Cross opcode_operand1                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin max_pos_add_or_sub                          9          1          -    Covered              
+            bin max_neg_add_or_sub                          6          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

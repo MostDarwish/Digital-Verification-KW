@@ -1,0 +1,101 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.adder_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      2        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         12        12         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.adder_pkg::rand_adder/Covgrp_A             100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                         14          1          -    Covered              
+        bin data_max                                       21          1          -    Covered              
+        bin data_min                                       14          1          -    Covered              
+        default bin data_default                           51                     -    Occurred             
+    Coverpoint A_transition_cp                        100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0max                                      35          1          -    Covered              
+        bin data_maxmin                                    35          1          -    Covered              
+        bin data_minmax                                    35          1          -    Covered              
+ TYPE work.adder_pkg::rand_adder/Covgrp_B             100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                         15          1          -    Covered              
+        bin data_max                                       15          1          -    Covered              
+        bin data_min                                       19          1          -    Covered              
+        default bin data_default                           51                     -    Occurred             
+    Coverpoint B_transition_cp                        100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0max                                      30          1          -    Covered              
+        bin data_maxmin                                    34          1          -    Covered              
+        bin data_minmax                                    34          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE work.adder_pkg::rand_adder/Covgrp_A             100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                         14          1          -    Covered              
+        bin data_max                                       21          1          -    Covered              
+        bin data_min                                       14          1          -    Covered              
+        default bin data_default                           51                     -    Occurred             
+    Coverpoint A_transition_cp                        100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0max                                      35          1          -    Covered              
+        bin data_maxmin                                    35          1          -    Covered              
+        bin data_minmax                                    35          1          -    Covered              
+ TYPE work.adder_pkg::rand_adder/Covgrp_B             100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                         15          1          -    Covered              
+        bin data_max                                       15          1          -    Covered              
+        bin data_min                                       19          1          -    Covered              
+        default bin data_default                           51                     -    Occurred             
+    Coverpoint B_transition_cp                        100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0max                                      30          1          -    Covered              
+        bin data_maxmin                                    34          1          -    Covered              
+        bin data_minmax                                    34          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 2
+
+Total Coverage By Design Unit (filtered view): 100.00%
+
