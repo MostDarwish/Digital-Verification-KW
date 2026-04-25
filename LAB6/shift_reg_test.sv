@@ -19,7 +19,6 @@ class shift_reg_test extends uvm_test;
   `uvm_component_utils(shift_reg_test)
   shift_reg_env env;
   shift_reg_config shift_reg_cfg;
-  virtual shift_reg_if shift_reg_vif;
   shift_reg_main_seq main_seq;
   shift_reg_reset_seq reset_seq;
 

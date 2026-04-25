@@ -3,7 +3,7 @@
 // Course: Digital Verification using SV & UVM
 //
 // Description: UVM Example
-// 
+//
 ////////////////////////////////////////////////////////////////////////////////
 import uvm_pkg::*;
 `include "uvm_macros.svh"
