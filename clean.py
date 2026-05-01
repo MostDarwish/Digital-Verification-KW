@@ -30,6 +30,6 @@ def clean_directory(root_dir):
 
 
 if __name__ == "__main__":
-    project_path = r"e:/Verification_KW_25_4_2026/"  # change this
+    project_path = r"."  # change this
     clean_directory(project_path)
     print("Cleanup completed.")
