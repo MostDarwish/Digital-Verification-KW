@@ -1,5 +1,5 @@
 vlib work
-vlog -f src_files.list +cover -covercells +define+SIM 
+vlog -f src_files.list +cover -covercells +define+SIM +define+FULL_DEBUG
 vsim -voptargs=+acc work.TOP -cover
 coverage save FIFO.ucdb -onexit
 log -r /*

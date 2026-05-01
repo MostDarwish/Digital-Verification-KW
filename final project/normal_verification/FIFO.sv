@@ -1,10 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////
-// Author: Kareem Waseem
-// Course: Digital Verification using SV & UVM
-//
-// Description: FIFO Design 
-// 
-////////////////////////////////////////////////////////////////////////////////
 import shared_pkg::*;
 module FIFO (
     FIFO_if.DUT intf
@@ -45,7 +38,6 @@ module FIFO (
     end else begin
       if (({intf.wr_en, intf.rd_en} == 2'b10) && !intf.full) count <= count + 1;
       else if (({intf.wr_en, intf.rd_en} == 2'b01) && !intf.empty) count <= count - 1;
-      // write and read enable assert simultaineuosly not covered
     end
   end
 
