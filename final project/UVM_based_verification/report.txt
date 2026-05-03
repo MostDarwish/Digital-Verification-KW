@@ -1,0 +1,15 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /TOP/DUT
+=== Design Unit: work.FIFO
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        25        25         0   100.00%
+    Statements                      28        28         0   100.00%
+    Toggles                         20        20         0   100.00%
+
+
+Total Coverage By Instance (filtered view): 100.00%
+

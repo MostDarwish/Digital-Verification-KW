@@ -16,6 +16,7 @@ module FIFO ( FIFO_if.DUT intf );
       mem[wr_ptr] <= intf.data_in;
       intf.wr_ack <= 1;
       wr_ptr <= wr_ptr + 1;
+      intf.overflow <= 0;
     end else begin
       intf.wr_ack <= 0;
       if (intf.full & intf.wr_en) intf.overflow <= 1;
@@ -26,14 +27,15 @@ module FIFO ( FIFO_if.DUT intf );
   always @(posedge intf.clk or negedge intf.rst_n) begin
     if (!intf.rst_n) begin
       rd_ptr <= 0;
-	  intf.data_out <= 0;
-	  intf.underflow <= 0;
+      intf.data_out <= 0;
+      intf.underflow <= 0;
     end else if (intf.rd_en && count != 0) begin
       intf.data_out <= mem[rd_ptr];
       rd_ptr <= rd_ptr + 1;
-	end else begin
-		if(intf.rd_en && intf.empty) intf.underflow <= 1;
-		else intf.underflow <= 0;
+      intf.underflow <= 0;
+    end else begin
+      if(intf.rd_en && intf.empty) intf.underflow <= 1;
+      else intf.underflow <= 0;
 	end
   end
 
